@@ -18,9 +18,10 @@ https://www.2ndquadrant.com/en/blog/barman-cloud-part-2-cloud-backup/<BR>
 https://www.2ndquadrant.com/en/blog/barman-2-11-barman-cloud-restore-and-barman-cloud-wal-restore/<BR>
 
 
+<DIV>
 aws --profile ${AWS_PROFILE_MINIO} --endpoint-url http://u20d1h4:9000 s3 ls backups/$(hostname) --recursive<BR>
 barman-cloud-backup-list -P ${AWS_PROFILE_MINIO} --endpoint-url http://u20d1h4:9000 s3://backups $(hostname)<BR>
-
+</DIV>
 
 <B>Environment</B><BR>
 
