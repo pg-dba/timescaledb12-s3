@@ -23,6 +23,7 @@ aws --profile ${AWS_PROFILE_MINIO} --endpoint-url http://u20d1h4:9000 s3 ls back
 barman-cloud-backup-list -P ${AWS_PROFILE_MINIO} --endpoint-url http://u20d1h4:9000 s3://backups $(hostname)<BR>
 </DIV>
 
+
 <B>Environment</B><BR>
 
 https://www.postgresql.org/docs/current/app-initdb.html<BR>
