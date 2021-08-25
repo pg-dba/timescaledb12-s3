@@ -24,7 +24,7 @@ barman-cloud-backup-list -P ${AWS_PROFILE_MINIO} --endpoint-url http://u20d1h4:9
 </DIV>
 
 
-<B>Environment</B><BR>
+<BR><B>Environment</B><BR>
 
 https://www.postgresql.org/docs/current/app-initdb.html<BR>
 https://github.com/docker-library/postgres/blob/cf175692c137b00938f480b3ae1babae0999e05e/12/buster/docker-entrypoint.sh<BR>
