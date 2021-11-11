@@ -1,4 +1,4 @@
-FROM docker000/postgresql12-s3
+FROM sqldbapg/postgresql12-s3
 
 ENV DEBIAN_FRONTEND noninteractive
 
