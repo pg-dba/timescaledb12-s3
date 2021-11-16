@@ -13,4 +13,7 @@ RUN apt -y install timescaledb-2-postgresql-12
 
 RUN apt-get clean all
 
-#RUN timescaledb-tune --quiet --yes
+# before init - /var/lib/postgresql/data not exists, postgres user not exists
+# cp /home/postgres/archive_wal.sh /var/lib/postgresql/data/archive_wal.sh
+# chown postgres:postgres /var/lib/postgresql/data/archive_wal.sh && chmod 700 /var/lib/postgresql/data/archive_wal.sh
+# timescaledb-tune --quiet --yes
