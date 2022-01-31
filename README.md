@@ -7,13 +7,9 @@ https://github.com/timescale/timescaledb-docker/blob/master/Dockerfile<BR>
 https://github.com/timescale/timescaledb-tune
 
 
-
-https://hub.docker.com/_/postgres
-
-https://github.com/docker-library/docs/blob/master/postgres/README.md
-
-https://github.com/docker-library/docker
-
+https://hub.docker.com/_/postgres<BR>
+https://github.com/docker-library/docs/blob/master/postgres/README.md<BR>
+https://github.com/docker-library/docker<BR>
 https://github.com/docker-library/docker/blob/master/19.03/Dockerfile
 
 
