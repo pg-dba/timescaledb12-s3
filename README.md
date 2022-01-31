@@ -13,10 +13,8 @@ https://github.com/docker-library/docker<BR>
 https://github.com/docker-library/docker/blob/master/19.03/Dockerfile
 
 
-https://www.2ndquadrant.com/en/blog/barman-cloud-part-1-wal-archive/
-
-https://www.2ndquadrant.com/en/blog/barman-cloud-part-2-cloud-backup/
-
+https://www.2ndquadrant.com/en/blog/barman-cloud-part-1-wal-archive/<BR>
+https://www.2ndquadrant.com/en/blog/barman-cloud-part-2-cloud-backup/<BR>
 https://www.2ndquadrant.com/en/blog/barman-2-11-barman-cloud-restore-and-barman-cloud-wal-restore/
 
 
