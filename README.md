@@ -1,13 +1,9 @@
 # timescaledb 12 with s3
 
-https://hub.docker.com/r/timescale/timescaledb
-
-https://github.com/timescale/timescaledb
-
-https://github.com/timescale/timescaledb-docker
-
-https://github.com/timescale/timescaledb-docker/blob/master/Dockerfile
-
+https://hub.docker.com/r/timescale/timescaledb<BR>
+https://github.com/timescale/timescaledb<BR>
+https://github.com/timescale/timescaledb-docker<BR>
+https://github.com/timescale/timescaledb-docker/blob/master/Dockerfile<BR>
 https://github.com/timescale/timescaledb-tune
 
 
