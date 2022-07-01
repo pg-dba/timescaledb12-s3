@@ -8,9 +8,7 @@ RUN export DEBIAN_FRONTEND=noninteractive && \
     apt-get update && \
     apt -y install timescaledb-2-postgresql-12 && \
     apt-get clean all && \
-    unset DEBIAN_FRONTEND
+    unset DEBIAN_FRONTEND && \
+    echo 'alias nocomments="sed -e :a -re '"'"'s/<!--.*?-->//g;/<!--/N;//ba'"'"' | grep -v -P '"'"'^\s*(#|;|$)'"'"'"' >> ~/.bashrc
 
-# before init - /var/lib/postgresql/data not exists, postgres user not exists
-# cp /home/postgres/archive_wal.sh /var/lib/postgresql/data/archive_wal.sh
-# chown postgres:postgres /var/lib/postgresql/data/archive_wal.sh && chmod 700 /var/lib/postgresql/data/archive_wal.sh
 # timescaledb-tune --quiet --yes
