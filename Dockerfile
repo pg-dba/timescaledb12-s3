@@ -1,4 +1,4 @@
-FROM sqldbapg/postgresql12-s3
+FROM sqldbapg/postgres-s3:12
 
 RUN export DEBIAN_FRONTEND=noninteractive && \
     apt-get update && \
