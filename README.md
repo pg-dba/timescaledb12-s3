@@ -1,5 +1,6 @@
 # timescaledb 12 with s3
 
+https://docs.timescale.com/install/latest/self-hosted/installation-debian/#install-self-hosted-timescaledb-on-debian-based-systems<BR>
 https://hub.docker.com/r/timescale/timescaledb<BR>
 https://github.com/timescale/timescaledb<BR>
 https://github.com/timescale/timescaledb-docker<BR>
